@@ -1,0 +1,49 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.main{
+    position: relative;
+    margin: 200px 450px;
+    background-color: #030303;
+    height: 500px;
+    width: 1000px;
+    box-shadow: 10px 10px 10000px #124773 ;
+}
+.main h1{
+    position: absolute;
+    color: #c6c6c6;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 25px 380px;
+    text-decoration: underline;
+}
+.result{
+    margin: 80px 90px;
+    position: absolute;
+    background-color: #7c7c7c;
+    border-style:none;
+    height: 60px;
+    width: 800px;
+    font-size: 45px;
+    color: #dac4c4;
+}
+.keypad{
+    position: absolute;
+    height: 300px;
+    width: 750px;
+    margin: 160px 115px;
+    padding-left: 125px;
+}
+.keypad button{
+
+    background-color: #124773;
+    border-style:none ;
+    padding: 5px;
+    font-size: 2rem;
+    height: 50px;
+    width: 80px;
+    margin: 0px 20px;
+}
